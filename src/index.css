@@ -1,0 +1,345 @@
+:root {
+    --color-bg: #262626;
+    --color-text: #ffffff;
+    --color-accent: #B6FF19;
+    --color-hover: #333333;
+    --color-TrustedText: #FDFFFA;
+    --color-logoText: #E6E6E6;
+    /*  هي لون الكتابة يلي جنب الايوقنات*/
+    --color-Nomber: #D8FF99;
+    --color-copy: #98989A;
+    --color-bg-logoCompany: #242424;
+    --color-green-but: #9EFF00;
+    --color-question: #C5FF66;
+    --color-border-logo: #2E2E2E00;
+    -color-input-box-text: #656567;
+}
+
+/*Start padding for home page */
+.container{
+        max-width: 1920px;
+    }
+.whiteSpacing{
+    padding-left: 162px;
+    padding-right: 162px;
+}
+nav{
+    padding-top: 21px;
+    padding-bottom: 24px;
+}
+.heroHomePadding{
+    padding-top: 212px;
+}
+.platformsHomePadding{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footerPadding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*End padding for home page */
+
+
+
+
+
+
+
+
+
+
+
+/* Start padding for work page */
+.heroPadding{
+    padding-top: 220px;
+}
+.squareUpPadding{
+    padding-top: 120px;
+}
+/* End padding for work page */
+
+
+
+
+
+
+
+
+
+
+
+/* Start padding for process page */
+.heroPadding{
+    padding-top: 220px;
+}
+.squareUpPadding{
+    padding-top: 120px;
+}
+/* End padding for process page */
+
+
+
+
+
+/* Start padding for about page */
+.heroPadding{
+    padding-top: 220px;
+}
+.aboutAboutPadding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.storyAboutPadding{
+    padding-top: 100px;
+}
+.projectPadding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+/* End padding for about page */
+
+
+
+
+
+
+/* Start padding for contact page */
+.heroPadding{
+    padding-top: 220px;
+}
+.socialContactPadding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.formContactPadding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.daysOperatingsContactPadding{
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+.projectPadding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+/* End padding for contact page */
+
+
+
+
+
+
+@media screen and (max-width:1920px){
+    /*Start padding for home page */
+  
+    .whiteSpacing{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    nav{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .heroHomePadding{
+        padding-top: 197px;
+    }
+    .platformsHomePadding{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footerPadding{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    /*End padding for home page */
+
+
+
+
+
+
+
+    /* Start padding for work page */
+    .heroPadding{
+        padding-top: 185px;
+    }
+    .squareUpPadding{
+        padding-top: 80px;
+    }
+    /* End padding for work page */
+
+
+
+
+
+
+    /* Start padding for process page */
+    .squareUpPadding{
+        padding-top: 80px;
+    }
+    /* End padding for process page */
+
+
+
+
+
+
+
+    /* Start padding for about page */
+    .heroPadding{
+        padding-top: 185px;
+    }
+    .aboutAboutPadding{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .storyAboutPadding{
+        padding-top: 80px;
+    }
+    .projectPadding{
+        padding-top: 64.5px;
+        padding-bottom: 60px;
+    }
+    /* End padding for about page */
+
+
+
+
+
+    /* Start padding for contact page */
+    .heroPadding{
+        padding-top: 185px;
+    }
+    .socialContactPadding{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .formContactPadding{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .daysOperatingsContactPadding{
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    .projectPadding{
+        padding-top: 64.5px;
+        padding-bottom: 60px;
+    }
+    /* End padding for contact page */
+}
+
+
+
+
+
+@media screen and (max-width:992px){
+    /*Start padding for home page */
+    .whiteSpacing{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    nav{
+        padding-top: 43px;
+        padding-bottom: 23px;
+    }
+    .heroHomePadding{
+        padding-top: 186px;
+    }
+    .platformsHomePadding{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .footerPadding{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /*End padding for home page */
+
+
+
+
+
+
+
+    /* Start padding for work page */
+    .heroPadding{
+        padding-top: 156px;
+    }
+    .squareUpPadding{
+        padding-top: 40px;
+    }
+    /* End padding for work page */
+
+
+
+
+
+
+
+
+    /* Start padding for process page */
+    .squareUpPadding{
+        padding-top: 40px;
+    }
+    /* End padding for process page */
+
+
+
+
+
+
+
+
+    /* Start padding for about page */
+    .heroPadding{
+        padding-top: 156px;
+    }
+    .aboutAboutPadding{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .storyAboutPadding{
+        padding-top: 40px;
+    }
+    .projectPadding{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    /* End padding for about page */
+
+
+
+
+
+
+
+
+
+
+
+    
+    /* Start padding for contact page */
+    .heroPadding{
+        padding-top: 156px;
+    }
+    .socialContactPadding{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .formContactPadding{
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .daysOperatingsContactPadding{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .projectPadding{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    /* End padding for contact page */
+}
