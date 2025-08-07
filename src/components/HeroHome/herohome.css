@@ -1,0 +1,120 @@
+/* .whiteSpacing{
+    padding-left: 162px;
+    padding-right: 162px;
+} */
+.heroHome{
+    background-image: url("/assets/img/dots.png");
+    background-repeat: repeat;
+    background-position: bottom;
+    background-color: var(--color-bg);
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heroHome img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+}
+.heroHome h1{
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 1;
+    margin-bottom: 40px;
+    max-width: 865px;
+    margin-bottom: 40px;
+}
+.heroHome .paragraph{
+    color: var(--color-text);
+    max-width: 865px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    padding: 24px 40px;
+    border: 1px solid var(--color-bg); 
+    background-color: #24242433;
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    
+}
+.heroHome .paragraph span{
+    padding: 8px 10px;
+    background-color: var(--color-bg);
+    border-radius: 8px;
+}
+.heroHome .btn{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px 28px;
+    border: 1px solid var(--color-bg);
+    border-radius: 10px;
+    background-color: #24242433;
+    border: 1px solid #333333; 
+    backdrop-filter: blur(12px);
+    margin: 0 13px 13px;
+    color: var(--color-text);
+    cursor: pointer;
+    transition: 0.2s all;
+}
+.heroHome .btn:hover{
+    background-color: var(--color-green-but);
+    color: var(--color-bg);
+}
+.heroHome .description{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 34px;
+    border-radius: 100px;
+    background-color: #1A1A1A;
+    border: 1px solid var(--color-bg);
+    max-width: 286px;
+    position: absolute;
+    bottom: -28px;
+    color: var(--color-TrustedText);
+}
+@media screen and (max-width:1440px) {
+    .whiteSpacing{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .heroHome h1{
+        font-size: 48px;
+        margin-bottom: 30px;
+        max-width: 699px;
+    }
+    .heroHome .paragraph{
+        max-width: 699px;
+        font-size: 18px;
+        padding: 18px 30px;
+        margin-bottom: 40px;
+    }
+    .heroHome .btn{
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+    .heroHome .description{
+        font-size: 14px;
+        padding: 14px 24px;
+        bottom: -14px;
+    }
+}
+@media screen and (max-width:992px) {
+    .whiteSpacing{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .heroHome h1{
+        font-size: 34px;
+    }
+    .heroHome .paragraph{
+        font-size: 16px;
+        padding: 18px 20px;
+        line-height: 1.5;
+    }
+}

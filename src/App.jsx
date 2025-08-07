@@ -6,12 +6,20 @@ import Work from "./Pages/Work/Work.jsx";
 import Process from "./Pages/Process/Process.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
 import Clients from "./Pages/Clients/Clients.jsx";
+import HeroHome from './components/HeroHome/HeroHome'
 
 function App() {
 
   return (
     <>
 {/* <Navbar /> */}
+<HeroHome image="/assets/img/mountain.png"
+      title="A Digital Product Studio that will Work"
+      btn1="Our Works"
+      btn2="Contact Us"
+      description="Trusted By 250+ Companies"
+/>
+      
 
 <Routes>
 <Route path='/' element={<Home/>}/>
@@ -21,6 +29,7 @@ function App() {
 <Route path='/contact' element={<Contact/>}/>
 <Route path='/clients' element={<Clients/>}/>
 </Routes>
+
 
 {/* <Footer/> */}
 
